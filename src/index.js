@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {App,Mediacard} from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>
+    //<App />
+  //</React.StrictMode>,
+  
+  <div><App name="Muhammad Farjad Ali Raza"/>
+  <div><Mediacard title="Mediacard" body="React Image is loaded below" ImageUrl="https://media.giphy.com/media/26tPtg8M3i6DPSSt2/giphy.gif"/></div>
+  </div>,
   document.getElementById('root')
 );
 

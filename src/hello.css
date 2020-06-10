@@ -1,0 +1,23 @@
+.helloWorld{
+    color:white;
+    background-color: green; /* for visualization purposes */
+    text-align: center;
+  }
+.list{
+    margin-top: 10px;
+    color: red;
+    background-color: yellow;
+    text-align: left;
+}
+.unorderlist{
+    
+    margin-top:10px;
+    color: blue;
+    background-color: rgb(233, 78, 78);
+    text-align: left;
+}
+.centerMediaCard{
+    text-align: center;
+    background-color: steelblue;
+    color: chartreuse;
+}
