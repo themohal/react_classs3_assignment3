@@ -21,3 +21,13 @@
     background-color: steelblue;
     color: chartreuse;
 }
+.gateOpen{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+.gateClosed{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

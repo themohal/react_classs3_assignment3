@@ -35,5 +35,21 @@ function Mediacard(props){
     <img src={props.ImageUrl} alt=""/>
   </div>
 }
-
-export  {App,Mediacard}
+function Gate(props){
+    if(props.isOpen){
+      return  <p className="gateOpen">The Gate is: {props.isOpen===true}Open<br/>
+      <p>Made By Muhammad Farjad Ali Raza</p>
+      </p>
+        
+    }else{
+      return  <p className="gateClosed">The Gate is: {props.isOpen===false}Closed
+      <br/>
+      <p>Made By Muhammad Farjad Ali Raza</p>
+      </p>
+  
+      }
+    
+    
+  
+}
+export  {App,Mediacard,Gate}
