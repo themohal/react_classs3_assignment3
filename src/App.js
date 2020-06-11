@@ -1,6 +1,7 @@
 import React from 'react';
 import './hello.css';
 
+
 function App(props) {
   return(
     <div className="helloWorld">
@@ -23,6 +24,7 @@ function App(props) {
         <li>BlockChain</li>
       </ul>
     </div>
+    
     </div>
   );
   
@@ -39,6 +41,7 @@ function Gate(props){
     if(props.isOpen){
       return  <p className="gateOpen">The Gate is: {props.isOpen===true}Open<br/>
       <p>Made By Muhammad Farjad Ali Raza</p>
+      
       </p>
         
     }else{
@@ -48,8 +51,10 @@ function Gate(props){
       </p>
   
       }
-    
-    
-  
+      
 }
-export  {App,Mediacard,Gate}
+
+
+
+  
+export  {App,Mediacard,Gate};

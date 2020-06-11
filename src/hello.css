@@ -31,3 +31,6 @@
     color: red;
     font-weight: bold;
 }
+.buttonStyle  {
+    margin: '10px 10px 10px 0'
+  };
